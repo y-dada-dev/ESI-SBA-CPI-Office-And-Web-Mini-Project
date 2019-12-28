@@ -35,8 +35,8 @@
 
 
 # <picture><source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f441_fe0f/512.webp" type="image/webp"><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f441_fe0f/512.gif" alt="👁" width="28" height="28"></picture> Website Preview
-![TP Description File](Mini-Project%20Preview%20-%20Page%20I.png)
-![TP Description File](Mini-Project%20Preview%20-%20Page%20II.png)
+![TP Description File](Mini-Project%20Preview%20-%20Part%20I.png)
+![TP Description File](Mini-Project%20Preview%20-%20Part%20II.png)
 # <picture><source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f441_fe0f/512.webp" type="image/webp"><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f441_fe0f/512.gif" alt="👁" width="28" height="28"></picture> Description File Preview
 ![TP Description File](Mini-Project%20Description%20File.png)
 
