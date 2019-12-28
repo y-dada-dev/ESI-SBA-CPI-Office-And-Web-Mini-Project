@@ -1,0 +1,185 @@
+<DOCTYPE <!DOCTYPE html>
+<html>
+  <Head>
+  <!-------------------------------------------------------------------------------------------------->
+
+    <!-------------------------------------------------------------------------------------------------->
+    <style>
+.containe {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style>
+    <!-------------------------------------------------------------------------------------------------->
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .column {
+      float: left;
+      width: 18%;
+      padding: 10px;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .row{
+      padding-left: 10%;
+    }
+    </style>
+    <!-------------------------------------------------------------------------------------------------->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+    .mySlides {display:none}
+    .w3-left, .w3-right, .w3-badge {cursor:pointer}
+    .w3-badge {height:13px;width:13px;padding:0}
+</style>
+    <style>
+img {
+  width: 100%;
+}
+</style>
+<style>
+    #grad1 {
+      height: 2000px;
+      background-color: #009305;
+      background-image: linear-gradient(#ffffff, #dfffcb);
+    }
+</style>
+    <meta charset="utf-8"><!-------------------------------------------------------------------------------------------------->
+    <meta name="description" content="Simply Green est un site international qui fait la recherche a des solution Organique et Economique pour sauvgarder notre cher planet ">
+    <title>Simply Green</title>
+  </Head>
+  <Body><!-------------------------------------------------------------------------------------------------->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href=".\Index.html"><img src=".\Sources\Website Logo.png" style="width:25%"> </a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href=".\Index.html">Accueil </a></li>
+      <li><a href=".\Qui Nous Sommes.html">Qui Nous Sommes ? </a></li>
+      <li><a href="#">Boutique </a></li>
+      <li><a href=".\Contactez Nous.html">Nous Contactez </a></li>
+    </ul>
+  </div>
+</nav>
+<div id="grad1"><!-------------------------------------------------------------------------------------------------->
+  <br/>
+  <br/>
+  <div class="w3-content w3-display-container" style="max-width:2048px">
+    <img class="mySlides" src=".\Sources\Toxic Slide.png" style="width:100%">
+    <img class="mySlides" src=".\Sources\Animal Slider.png" style="width:100%">
+    <img class="mySlides" src=".\Sources\Save Slider.png" style="width:100%">
+    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+      <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+      <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+    </div>
+  </div>
+
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function currentDiv(n) {
+    showDivs(slideIndex = n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" w3-white", "");
+    }
+    x[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " w3-white";
+  }
+  </script><!-------------------------------------------------------------------------------------------------->
+</br>
+</br>
+   <p style = "font-family:georgia,garamond,serif;font-size:50px;font-style:italic;text-align:center"><font color="green">
+        20 Ans</font><font color="black">
+          de changements</font></p>
+          <h1 style="text-align:center;">---------------------------</h1>
+  <p style = "font-family:georgia,garamond,serif;font-size:25px;font-style:italic;text-align:center"><font color="black">
+    Nous utilisons une confrontation créative et non violente pour exposer</br>
+les problèmes environnementaux mondiaux soit ils sont de :</font></p>
+</br>
+</br>
+<!-------------------------------------------------------------------------------------------------->
+<div class="row" >
+  <div class="column">
+    <img src=".\Sources\Climat Slide.png" alt="Climat" style="width:100%">
+  </div>
+  <div class="column">
+    <img src=".\Sources\Nature Slide.png" alt="Nature" style="width:100%">
+  </div>
+  <div class="column">
+    <img src=".\Sources\Oceans Slider.png" alt="Oceans" style="width:100%">
+  </div>
+  <div class="column">
+    <img src=".\Sources\Pollution Slider.png" alt="Pllutions" style="width:100%">
+  </div>
+  <div class="column">
+    <img src=".\Sources\Plant Slider.png" alt="Plantation" style="width:100%">
+  </div>
+</div>
+<!-------------------------------------------------------------------------------------------------->
+</br>
+</br>
+<p style = "font-family:georgia,garamond,serif;font-size:75px;font-style:italic;text-align:center"><font color="green">
+     + 95000</font></p>
+<p style = "font-family:georgia,garamond,serif;font-size:40px;font-style:italic;text-align:center"><font color="black">
+          Personnes travaillant avec nous</font></p>
+  <h1 style="text-align:center;">---------------------------</h1>
+  <p style = "font-family:georgia,garamond,serif;font-size:30px;font-style:italic;text-align:center"><font color="black">
+    Nous utilisons votre support pour nettoyer l'air, purifier les rivières </br>et faire toutes nos activités pour protéger notre planète</font></p>
+  </br>
+  </br>
+  </br>
+  <div class="containe">
+  <img  src=".\Sources\Team.png" alt="Team" style="width:100%;">
+  <div class="centered">
+    <p style = "font-family:georgia,garamond,serif;font-size:50px;font-style:italic;text-align:center"><font color="Lightgreen"><a href=".\Contactez Nous.html">
+         Rejoignez notre équipe !</a></font></p>
+  <p style = "font-family:georgia,garamond,serif;font-size:25px;font-style:italic;text-align:center"><font color="white">
+              Vous pouvez toujours nous donner un coup de main soit avec un petit support physique que vous donner une vie a une plante ou avec un support finnocial . come vous voulez !</font></p>
+  </div>
+</div>
+<!-------------------------------------------------------------------------------------------------->
+
+
+</Body></div><!-------------------------------------------------------------------------------------------------->
+
+</html>
